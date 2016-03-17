@@ -1,8 +1,10 @@
+package shapes;
+
 /*
-Job of Square is to calculate any quantity of Square using length and breadth
+Job of shapes.Square is to calculate any quantity of shapes.Square using length and breadth
     or length or breadth.
  */
-public class Square extends Rectangle{
+public class Square extends Rectangle {
     private double side;
 
     private Square(double side) {

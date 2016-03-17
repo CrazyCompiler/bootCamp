@@ -5,3 +5,7 @@ As a match student ,i want to represent a rectangle ==>
 
 As a math student, I want to represent a square
   - so that i can calculate its area and perimeter
+
+As a math student,
+ I want to represent a chance of getting tails
+ when flipping a coin.
