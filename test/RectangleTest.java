@@ -44,7 +44,7 @@ public class RectangleTest {
     }
 
     @Test
-    public void rectangle_throws_exception_for_non_positive_breadth() throws Exception {
+    public void rectangle_throws_exception_for_non_positive_breadth()  {
         double length = 20;
         double breadth = -2;
         thrown.expect(IllegalArgumentException.class);

@@ -1,28 +1,51 @@
 ------------------------Requirements-------------------------------
 
-As a match student ,i want to represent a rectangle ==>
+1. As a match student ,i want to represent a rectangle ==>
  - so that i will be able to calculate area and perimeter.
 
-As a math student, I want to represent a square
+2. As a math student, I want to represent a square
   - so that i can calculate its area and perimeter
 
-As a math student,
+3. As a math student,
  I want to represent a chance of getting tails
  when flipping a coin.
 
- As a math student,
+4. As a math student,
  I want to represent a chance of NOT getting tails
  when flipping a coin.
 
- As a math student,
+5. As a math student,
   I want to represent a chance of getting tails
   when flipping two coins.
 
- As a math student,
+6. As a math student,
   I want to represent a chance of getting at least one tails
   when flipping two coins.
 
-De morgans law
+7. De morgans law
+    p(A||B) = !(!p(A)&& !p(B))
 
-p(A||B) = !(!p(A)&& !p(B))
+8. As a math student,
+    I wish to compare lengths in feet and inches.
+    1ft = 12in
+
+8. As a math student,
+    I wish to compare lengths in inches and cm.
+    2in = 5cm
+
+9. As a math student,
+    I wish to compare lengths in cm and mm.
+    1cm = 10mm
+
+10. As a math student,
+    I wish to compare volumes in liter and gallon.
+    1 gallon = 3.78 liters
+
+11. As a math student,
+    I want to able to add two lengths in inches.
+    2in + 2 in = 4in
+
+12. As a math student,
+    I want to able to add two lengths in any unit and the standard outputs in inches
+
 

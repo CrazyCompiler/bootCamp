@@ -13,7 +13,7 @@ public class Rectangle {
         this.breadth = breadth;
     }
 
-    static public Rectangle createRectangle(double length, double breadth) throws Exception {
+    static public Rectangle createRectangle(double length, double breadth) {
         if (length <= 0 || breadth <= 0)
             throw new IllegalArgumentException("Non positive input is provided length :" + length +" breadth :"+ breadth + " while creating rectangle");
         return new Rectangle(length, breadth);
