@@ -1,5 +1,5 @@
 /*
-job of CoinProbability-
+job of Probability-
     -should represent the probability of getting heads/tails of n number of coins.
  */
 
@@ -13,25 +13,26 @@ public class Probability {
         this.probability = probability;
     }
 
-    public static Probability create(double probability) {
+    public static Probability create(double probability) throws InvalidProbabilityException {
         if (probability > 1 || probability < 0)
-            throw new IllegalArgumentException("Expected probability bellow 1 and greater than 0 but got " + probability);
+            throw new InvalidProbabilityException(probability);
         return new Probability(probability);
     }
 
-    public Probability not() {
+    public Probability not() throws InvalidProbabilityException {
         return Probability.create(1 - this.probability);
     }
 
 
-    public Probability and(Probability anotherProbability) {
+    public Probability and(Probability anotherProbability) throws InvalidProbabilityException {
         return create(this.probability * anotherProbability.probability);
     }
 
-    public Probability or(Probability anotherProbability){
+    public Probability or(Probability anotherProbability) throws InvalidProbabilityException {
         Probability probabilityOfAnEventNotOccuring = this.not().and(anotherProbability.not());
         return probabilityOfAnEventNotOccuring.not();
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
