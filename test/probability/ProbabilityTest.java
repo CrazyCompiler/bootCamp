@@ -32,4 +32,13 @@ public class ProbabilityTest {
         Probability probabilityNotOccuring = Probability.create(0.5);
         assertEquals(probabilityNotOccuring,probability.not());
     }
+
+    @Test
+    public void atleastOneEvent_provides_probability_of_any_event_occuring_atleast_once() throws Exception {
+        Probability probability = Probability.create(0.5);
+        Probability probabilityOfNotOccuring = Probability.create(0.5);
+        Probability expected = Probability.create(0.75);
+        assertEquals(expected,probability.or(probabilityOfNotOccuring));
+
+    }
 }

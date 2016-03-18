@@ -15,14 +15,23 @@ public class Probability {
 
     public static Probability create(double probability) {
         if (probability > 1 || probability < 0)
-            throw new IllegalArgumentException("Expected probability bellow 1 and greater than 0 but got "+probability);
+            throw new IllegalArgumentException("Expected probability bellow 1 and greater than 0 but got " + probability);
         return new Probability(probability);
     }
 
-    public Probability not(){
-        return Probability.create(1-this.probability);
+    public Probability not() {
+        return Probability.create(1 - this.probability);
     }
 
+
+    public Probability and(Probability anotherProbability) {
+        return create(this.probability * anotherProbability.probability);
+    }
+
+    public Probability or(Probability anotherProbability){
+        Probability probabilityOfAnEventNotOccuring = this.not().and(anotherProbability.not());
+        return probabilityOfAnEventNotOccuring.not();
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
