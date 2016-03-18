@@ -1,39 +1,35 @@
 package probability;
 
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.assertEquals;
 
 public class ProbabilityTest {
+
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
+
+
     @Test
-    public void getRepresentation_provides_representation_of_getting_tails_when_a_coin_is_flipped() {
-        Probability probability = new Probability(1);
-        double expected = 0.5;
-        double representation = probability.getEventRepresentation();
-        assertEquals(expected,representation,0.0);
+    public void create_throws_illegalArgumentError_if_number_greater_than_1_is_provided()  {
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("Expected probability bellow 1 and greater than 0 but got 2.0");
+        Probability probability = Probability.create(2.0);
     }
 
     @Test
-    public void getRepresentation_provides_representation_of_getting_heads_when_a_coin_is_flipped() {
-        Probability probability = new Probability(1);
-        double expected = 0.5;
-        double representation = probability.getNotAnEventRepresentation();
-        assertEquals(expected,representation,0.0);
+    public void create_throws_illegalArgumentError_if_number_smaller_than_0_is_provided()  {
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("Expected probability bellow 1 and greater than 0 but got -12.0");
+        Probability probability = Probability.create(-12.0);
     }
 
     @Test
-    public void getRepresentation_provides_representation_of_getting_tails_when_more_than_one_coin_is_flipped() {
-        Probability probability = new Probability(2);
-        double expected = 0.5;
-        double representation = probability.getEventRepresentation();
-        assertEquals(expected,representation,0.0);
-    }
-
-    @Test
-    public void getRepresentation_provides_representation_of_getting_atleast_one_tails_when_more_than_one_coin_is_flipped() {
-        Probability probability = new Probability(2);
-        double expected = 0.75;
-        double representation = probability.getAtLeastOneEventRepresentation();
-        assertEquals(expected,representation,0.0);
+    public void not_provides_probablity_of_any_event_not_occuring() {
+        Probability probability = Probability.create(0.5);
+        Probability probabilityNotOccuring = Probability.create(0.5);
+        assertEquals(probabilityNotOccuring,probability.not());
     }
 }

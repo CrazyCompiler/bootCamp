@@ -7,33 +7,36 @@ job of CoinProbability-
 package probability;
 
 public class Probability {
-    private int noOfCoins;
-    private double singleCoinFavourableOutcome = 1;
-    private double singleCoinSampleSpace = 2;
+    private double probability;
 
-    public Probability(int noOfCoins) {
-        this.noOfCoins = noOfCoins;
+    private Probability(double probability) {
+        this.probability = probability;
     }
 
-    private double calculateSampleSpace() {
-        return noOfCoins*singleCoinSampleSpace;
-    }
-    private double calculateFavourableOutcome() {
-        return noOfCoins*singleCoinFavourableOutcome;
-    }
-
-    public double getEventRepresentation() {
-        double favourableOutcome = calculateFavourableOutcome();
-        double sampleSpace = calculateSampleSpace();
-        return favourableOutcome/sampleSpace;
+    public static Probability create(double probability) {
+        if (probability > 1 || probability < 0)
+            throw new IllegalArgumentException("Expected probability bellow 1 and greater than 0 but got "+probability);
+        return new Probability(probability);
     }
 
-    public double getAtLeastOneEventRepresentation() {
-        System.out.println(1-((1- getEventRepresentation())*(1- getEventRepresentation())) * 2);
-        return 1-((1- getEventRepresentation())*(1- getEventRepresentation()));
+    public Probability not(){
+        return Probability.create(1-this.probability);
     }
 
-    public double getNotAnEventRepresentation() {
-        return 1- getEventRepresentation();
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Probability)) return false;
+
+        Probability that = (Probability) o;
+
+        return Double.compare(that.probability, probability) == 0;
+
+    }
+
+    @Override
+    public int hashCode() {
+        long temp = Double.doubleToLongBits(probability);
+        return (int) (temp ^ (temp >>> 32));
     }
 }

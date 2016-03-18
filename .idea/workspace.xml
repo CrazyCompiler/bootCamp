@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/probability/Probability.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/probability/ProbabilityTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/probability/ChanceRepresentor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/probability/ChanceRepresentorTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/probability/Probability.java" afterPath="$PROJECT_DIR$/src/probability/Probability.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/probability/ProbabilityTest.java" afterPath="$PROJECT_DIR$/test/probability/ProbabilityTest.java" />
     </list>
     <ignored path="bootCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,18 +42,13 @@
       <file leaf-file-name="Probability.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/probability/Probability.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37638375">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.09409594">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding>
-                <element signature="e#0#1140#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/test/probability/ProbabilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/probability/ChanceRepresentor.java" />
         <option value="$PROJECT_DIR$/src/probability/CoinProbability.java" />
         <option value="$PROJECT_DIR$/src/probability/Probability.java" />
+        <option value="$PROJECT_DIR$/test/probability/ProbabilityTest.java" />
       </list>
     </option>
   </component>
@@ -582,25 +575,16 @@
       <option name="project" value="LOCAL" />
       <updated>1458208506922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="completed second version of representating chance assignment">
+      <created>1458270363202</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1458270363202</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChanceRepresentorTest - 2016.03.17 at 16h 42m 44s.xml">
-      <configuration name="ChanceRepresentorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChanceRepresentorTest - 2016.03.17 at 16h 45m 44s.xml">
-      <configuration name="ChanceRepresentorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChanceRepresentorTest - 2016.03.17 at 17h 09m 34s.xml">
-      <configuration name="ChanceRepresentorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChanceRepresentorTest - 2016.03.17 at 17h 10m 15s.xml">
-      <configuration name="ChanceRepresentorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChanceRepresentorTest - 2016.03.17 at 17h 11m 08s.xml">
-      <configuration name="ChanceRepresentorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ChanceRepresentorTest - 2016.03.17 at 17h 11m 15s.xml">
       <configuration name="ChanceRepresentorTest" configurationId="JUnit" />
     </history-entry>
@@ -615,6 +599,21 @@
     </history-entry>
     <history-entry file="ChanceRepresentorTest - 2016.03.17 at 17h 16m 21s.xml">
       <configuration name="ChanceRepresentorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProbabilityTest - 2016.03.18 at 08h 46m 53s.xml">
+      <configuration name="ProbabilityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProbabilityTest - 2016.03.18 at 08h 48m 00s.xml">
+      <configuration name="ProbabilityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProbabilityTest - 2016.03.18 at 08h 48m 34s.xml">
+      <configuration name="ProbabilityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProbabilityTest - 2016.03.18 at 08h 59m 21s.xml">
+      <configuration name="ProbabilityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProbabilityTest - 2016.03.18 at 08h 59m 43s.xml">
+      <configuration name="ProbabilityTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -656,7 +655,8 @@
     <MESSAGE value="fist version of Square assignments completed." />
     <MESSAGE value="Extanded Rectangle by Square" />
     <MESSAGE value="completed first version of representating chance assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed first version of representating chance assignment" />
+    <MESSAGE value="completed second version of representating chance assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed second version of representating chance assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -739,24 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15682657">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shapes/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -778,13 +760,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/probability/ProbabilityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/shapes/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.53321034">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,20 +776,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43542436">
+          <caret line="50" column="115" selection-start-line="49" selection-start-column="8" selection-end-line="50" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/probability/ProbabilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/probability/Probability.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37638375">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.09409594">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <element signature="e#0#1140#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
           </folding>
         </state>
       </provider>
