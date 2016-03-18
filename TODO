@@ -9,3 +9,20 @@ As a math student, I want to represent a square
 As a math student,
  I want to represent a chance of getting tails
  when flipping a coin.
+
+ As a math student,
+ I want to represent a chance of NOT getting tails
+ when flipping a coin.
+
+ As a math student,
+  I want to represent a chance of getting tails
+  when flipping two coins.
+
+ As a math student,
+  I want to represent a chance of getting at least one tails
+  when flipping two coins.
+
+De morgans law
+
+p(A||B) = !(!p(A)&& !P(B))
+
