@@ -5,23 +5,29 @@ public class Measurement {
     private double value;
     private Units unit;
 
-    public Measurement(double value, Units unit) {
+    private Measurement(double value, Units unit) {
         this.value = value;
         this.unit = unit;
     }
 
+    public static Measurement create(double value, Units unit) throws NegativeMeasurementException {
+        if(value<0)
+            throw new NegativeMeasurementException(value);
+        return new Measurement(value,unit);
+    }
+
     public boolean compare(Measurement comparableMeasurement) {
-        double unitsInInches = Math.round(this.unit.ConvertIntoInches(this.value));
-        double givenunitsInInches = Math.round(comparableMeasurement.unit.ConvertIntoInches(comparableMeasurement.value));
+        double unitsInInches = Math.round(this.unit.convertIntoBaseUnit(this.value));
+        double givenunitsInInches = Math.round(comparableMeasurement.unit.convertIntoBaseUnit(comparableMeasurement.value));
         return unitsInInches == givenunitsInInches;
     }
 
 
     public Measurement add(Measurement secondMeasurement) {
-        double unitsInInches = Math.round(this.unit.ConvertIntoInches(this.value));
-        double givenunitsInInches = Math.round(secondMeasurement.unit.ConvertIntoInches(secondMeasurement.value));
+        double unitsInInches = this.unit.convertIntoBaseUnit(this.value);
+        double givenunitsInInches = secondMeasurement.unit.convertIntoBaseUnit(secondMeasurement.value);
         double sum = unitsInInches + givenunitsInInches;
-        return new Measurement(sum,Units.Inches);
+        return new Measurement(Math.round(sum), Units.Inches);
     }
 
     @Override

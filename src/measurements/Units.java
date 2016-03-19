@@ -13,6 +13,7 @@ public enum Units {
     private static final double inchesToInches = 1;
     private static final double inchesToMillimeter = 25.4;
     private static final double inchesToCentimeter = 2.54;
+
     private static final double gallonToLiters = 3.78;
     private static final double gallonToGallons = 1;
 
@@ -23,7 +24,7 @@ public enum Units {
         this.unitConstant = unitConstant;
     }
 
-    public double ConvertIntoInches(Double value){
+    public double convertIntoBaseUnit(Double value){
         return value/unitConstant;
     }
 

@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="Completed the">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurements/Measurement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurements/Units.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lengths/Centimeter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lengths/Feet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lengths/Inches.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lengths/Millimeter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lengths/Units.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/volumes/Gallons.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/volumes/Liters.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/volumes/Volume.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lengths/CentimeterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lengths/FeetTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lengths/InchesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/lengths/MillimeterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/volumes/GallonsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/volumes/LitersTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/volumes/VolumeTest.java" afterPath="" />
+    <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurements/NegativeMeasurementException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurements/Measurement.java" afterPath="$PROJECT_DIR$/src/measurements/Measurement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurements/Units.java" afterPath="$PROJECT_DIR$/src/measurements/Units.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/measurements/MeasurementTest.java" afterPath="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
     </list>
     <ignored path="bootCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,12 +45,12 @@
         <entry file="file://$PROJECT_DIR$/src/measurements/Units.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +59,8 @@
       <file leaf-file-name="Measurement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/measurements/Measurement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35731706">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.41463414">
+              <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -85,9 +70,22 @@
         <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+              <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NegativeMeasurementException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/measurements/NegativeMeasurementException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,15 +97,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Viraj/Saran" />
         <option value="Sitaram/Viraj" />
         <option value="Shibi/Viraj" />
       </list>
@@ -165,8 +164,13 @@
         <option value="$PROJECT_DIR$/src/lengths/Units.java" />
         <option value="$PROJECT_DIR$/test/lengths/MeasurementTest.java" />
         <option value="$PROJECT_DIR$/src/lengths/Measurement.java" />
-        <option value="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
         <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/src/measurements/NegativeMeasurementException.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Measurement.java" />
+        <option value="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Volume.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Lengths.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Units.java" />
       </list>
     </option>
   </component>
@@ -215,6 +219,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="probability" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -728,38 +764,44 @@
       <option name="project" value="LOCAL" />
       <updated>1458317563867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completed the length comparing assignment with using enum">
+      <created>1458326421610</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1458326421610</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MeasurementTest - 2016.03.18 at 23h 58m 20s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 08h 52m 18s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 02m 32s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 08h 52m 44s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 02m 45s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 08h 53m 21s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 05m 15s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 08h 53m 50s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 05m 41s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 08h 54m 44s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 05m 45s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 09h 05m 30s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 06m 07s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 09h 05m 48s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 06m 14s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 11h 18m 43s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 06m 35s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 11h 21m 55s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 00h 07m 35s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 11h 28m 25s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -773,7 +815,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.502442" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278302" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06625767" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -783,7 +825,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -804,7 +846,9 @@
     <MESSAGE value="completed first version of representating chance assignment" />
     <MESSAGE value="completed second version of representating chance assignment" />
     <MESSAGE value="completed volume assighnment" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed volume assighnment" />
+    <MESSAGE value="Completed the length comparing assignment with using enum" />
+    <MESSAGE value="Conert the method name inches into baseUnits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conert the method name inches into baseUnits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,16 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/probability/ProbabilityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/probability/Probability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -991,29 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/measurements/Units.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TODO">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1022,10 +1033,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/probability/InvalidProbabilityException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12546125">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/probability/ProbabilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3413284">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/NegativeMeasurementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Units.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/measurements/Measurement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35731706">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.41463414">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
           <folding />
         </state>
       </provider>
