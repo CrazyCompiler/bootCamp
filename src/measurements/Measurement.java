@@ -3,14 +3,14 @@ package measurements;
 public class Measurement {
 
     private double value;
-    private Units unit;
+    private Measurables unit;
 
-    private Measurement(double value, Units unit) {
+    private Measurement(double value, Measurables unit) {
         this.value = value;
         this.unit = unit;
     }
 
-    public static Measurement create(double value, Units unit) throws NegativeMeasurementException {
+    public static Measurement create(double value, Measurables unit) throws NegativeMeasurementException {
         if(value<0)
             throw new NegativeMeasurementException(value);
         return new Measurement(value,unit);
@@ -27,7 +27,14 @@ public class Measurement {
         double unitsInInches = this.unit.convertIntoBaseUnit(this.value);
         double givenunitsInInches = secondMeasurement.unit.convertIntoBaseUnit(secondMeasurement.value);
         double sum = unitsInInches + givenunitsInInches;
-        return new Measurement(Math.round(sum), Units.Inches);
+        return new Measurement(sum, LengthUnits.Inches);
+    }
+
+    public Measurement addVolumes(Measurement secondMeasurement) {
+        double unitsInLiters = this.unit.convertIntoBaseUnit(this.value);
+        double givenunitsInLiters = secondMeasurement.unit.convertIntoBaseUnit(secondMeasurement.value);
+        double sum = unitsInLiters + givenunitsInLiters;
+        return new Measurement(sum, VolumeUnits.Liters);
     }
 
     @Override
@@ -39,16 +46,6 @@ public class Measurement {
 
         if (Double.compare(that.value, value) != 0) return false;
         return unit == that.unit;
-
     }
 
-    @Override
-    public int hashCode() {
-        int result;
-        long temp;
-        temp = Double.doubleToLongBits(value);
-        result = (int) (temp ^ (temp >>> 32));
-        result = 31 * result + (unit != null ? unit.hashCode() : 0);
-        return result;
-    }
 }

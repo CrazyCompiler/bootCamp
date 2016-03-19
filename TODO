@@ -48,8 +48,13 @@
 12. As a math student,
     I want to able to add two lengths in any unit and the standard outputs in inches
 
+13. As a math student(not a good one),
+    I want to able to volumes and lengths
 
-1 = 12
+    1 gallon = 1 inch
 
-0.0833333
+14. As a math student,
+    I want to able to add two volumes in any unit and the standard outputs in liters.
+
+    1 gallon + 1 liters = 4.78 ltrs
 

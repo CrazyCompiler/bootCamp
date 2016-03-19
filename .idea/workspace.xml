@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurements/NegativeMeasurementException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurements/Measurables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurements/VolumeUnits.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/measurements/Units.java" afterPath="$PROJECT_DIR$/src/measurements/LengthUnits.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurements/Measurement.java" afterPath="$PROJECT_DIR$/src/measurements/Measurement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurements/Units.java" afterPath="$PROJECT_DIR$/src/measurements/Units.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/measurements/MeasurementTest.java" afterPath="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
     </list>
     <ignored path="bootCamp.iws" />
@@ -31,36 +33,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="TODO" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TODO" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TODO">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.8341463">
+              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Units.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/measurements/Units.java">
+      <file leaf-file-name="LengthUnits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/measurements/LengthUnits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding>
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Measurement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Measurables.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/measurements/Measurables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VolumeUnits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/measurements/VolumeUnits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Measurement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/measurements/Measurement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41463414">
-              <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -70,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
+              <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +123,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -121,9 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dimensions/Breadth.java" />
-        <option value="$PROJECT_DIR$/src/dimensions/Length.java" />
-        <option value="$PROJECT_DIR$/src/Numbers.java" />
         <option value="$PROJECT_DIR$/test/RectangleTest.java" />
         <option value="$PROJECT_DIR$/test/SquareTest.java" />
         <option value="$PROJECT_DIR$/src/Square.java" />
@@ -164,13 +188,17 @@
         <option value="$PROJECT_DIR$/src/lengths/Units.java" />
         <option value="$PROJECT_DIR$/test/lengths/MeasurementTest.java" />
         <option value="$PROJECT_DIR$/src/lengths/Measurement.java" />
-        <option value="$PROJECT_DIR$/TODO" />
         <option value="$PROJECT_DIR$/src/measurements/NegativeMeasurementException.java" />
-        <option value="$PROJECT_DIR$/src/measurements/Measurement.java" />
-        <option value="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
         <option value="$PROJECT_DIR$/src/measurements/Volume.java" />
         <option value="$PROJECT_DIR$/src/measurements/Lengths.java" />
+        <option value="$PROJECT_DIR$/TODO" />
         <option value="$PROJECT_DIR$/src/measurements/Units.java" />
+        <option value="$PROJECT_DIR$/src/measurements/VolumeUnit.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Measurables.java" />
+        <option value="$PROJECT_DIR$/src/measurements/VolumeUnits.java" />
+        <option value="$PROJECT_DIR$/src/measurements/LengthUnits.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Measurement.java" />
+        <option value="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
       </list>
     </option>
   </component>
@@ -318,7 +346,7 @@
       <recent name="dimensions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MeasurementTest">
+  <component name="RunManager">
     <configuration default="false" name="InchesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -333,58 +361,6 @@
       <option name="MAIN_CLASS_NAME" value="lengths.InchesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="measurements in bootCamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="measurements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="bootCamp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="measurements" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="volumes in bootCamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="volumes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="bootCamp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="volumes" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -432,6 +408,58 @@
       <option name="MAIN_CLASS_NAME" value="measurements.MeasurementTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MeasurementTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="measurements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bootCamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="measurements" />
+      <option name="MAIN_CLASS_NAME" value="measurements.MeasurementTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MeasurementTest.add_any_volumes_will_give_sum_of_volumes_in_liters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="measurements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bootCamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="measurements" />
+      <option name="MAIN_CLASS_NAME" value="measurements.MeasurementTest" />
+      <option name="METHOD_NAME" value="add_any_volumes_will_give_sum_of_volumes_in_liters" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -702,18 +730,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.InchesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.measurements in bootCamp" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.volumes in bootCamp" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in bootCamp" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MeasurementTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in bootCamp" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MeasurementTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MeasurementTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MeasurementTest.add_any_volumes_will_give_sum_of_volumes_in_liters" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.MeasurementTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InchesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in bootCamp" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.volumes in bootCamp" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.measurements in bootCamp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MeasurementTest.add_any_volumes_will_give_sum_of_volumes_in_liters" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MeasurementTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InchesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in bootCamp" />
       </list>
     </recent_temporary>
   </component>
@@ -770,39 +798,45 @@
       <option name="project" value="LOCAL" />
       <updated>1458326421610</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Saran/Viraj] Convert the method name inches into baseUnits">
+      <created>1458367359857</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1458367359857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MeasurementTest - 2016.03.19 at 08h 52m 18s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 12h 33m 50s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 08h 52m 44s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 12h 34m 02s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 08h 53m 21s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 12h 34m 38s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 08h 53m 50s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 12h 39m 42s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 08h 54m 44s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 12h 40m 47s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 09h 05m 30s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 12h 41m 12s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 09h 05m 48s.xml">
+    <history-entry file="MeasurementTest - 2016.03.19 at 12h 46m 16s.xml">
       <configuration name="MeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 11h 18m 43s.xml">
-      <configuration name="MeasurementTest" configurationId="JUnit" />
+    <history-entry file="MeasurementTest_(1) - 2016.03.19 at 12h 36m 55s.xml">
+      <configuration name="MeasurementTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 11h 21m 55s.xml">
-      <configuration name="MeasurementTest" configurationId="JUnit" />
+    <history-entry file="MeasurementTest_add_any_volumes_will_give_sum_of_volumes_in_liters - 2016.03.19 at 12h 41m 34s.xml">
+      <configuration name="MeasurementTest.add_any_volumes_will_give_sum_of_volumes_in_liters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest - 2016.03.19 at 11h 28m 25s.xml">
-      <configuration name="MeasurementTest" configurationId="JUnit" />
+    <history-entry file="MeasurementTest_add_any_volumes_will_give_sum_of_volumes_in_liters - 2016.03.19 at 12h 46m 02s.xml">
+      <configuration name="MeasurementTest.add_any_volumes_will_give_sum_of_volumes_in_liters" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -848,7 +882,8 @@
     <MESSAGE value="completed volume assighnment" />
     <MESSAGE value="Completed the length comparing assignment with using enum" />
     <MESSAGE value="Conert the method name inches into baseUnits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conert the method name inches into baseUnits" />
+    <MESSAGE value="[Saran/Viraj] Convert the method name inches into baseUnits" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Saran/Viraj] Convert the method name inches into baseUnits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1025,14 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/probability/InvalidProbabilityException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12546125">
@@ -1060,33 +1087,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/measurements/Units.java">
+    <entry file="file://$PROJECT_DIR$/src/measurements/VolumeUnits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/measurements/Measurement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41463414">
-          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/LengthUnits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Measurables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8341463">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
           <folding />
         </state>
       </provider>
