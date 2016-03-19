@@ -1,4 +1,4 @@
-package measurements;
+package measurements.exceptions;
 
 public class NegativeMeasurementException extends Exception {
     public NegativeMeasurementException(double value) {

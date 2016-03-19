@@ -1,12 +1,13 @@
+package shapes;
+
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import shapes.Rectangle;
 
 import static org.junit.Assert.assertEquals;
 /*
-job of the RectangleTest is to test all the behaviour of shapes.Rectangle.
+job of the shapes.RectangleTest is to test all the behaviour of shapes.Rectangle.
  */
 public class RectangleTest {
     Rectangle rectangle;

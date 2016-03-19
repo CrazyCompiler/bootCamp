@@ -1,12 +1,13 @@
+package shapes;
+
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import shapes.Square;
 
 import static org.junit.Assert.assertEquals;
 /*
-job of SquareTest is to test behaviour of shapes.Square.fir
+job of shapes.SquareTest is to test behaviour of shapes.Square.fir
  */
 public class SquareTest {
         Square square;

@@ -1,6 +1,6 @@
 package measurements;
 
-public enum VolumeUnits implements  Measurables{
+public enum VolumeUnits implements Convertibles {
     Gallons(VolumeUnits.litersToGallons),
     Liters(VolumeUnits.litersToLiters);
 

@@ -1,5 +1,5 @@
 package measurements;
 
-public interface Measurables {
+public interface Convertibles {
     public double convertIntoBaseUnit(Double value);
 }
