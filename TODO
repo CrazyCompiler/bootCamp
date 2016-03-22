@@ -84,7 +84,7 @@
     I'd like a bag that prevents a wizard from adding double the number of red balls than green balls.
 
 18. Ballorian law is very strict about the placement of balls.
-    If any of the balls violate any of the palcement rules while bring placed next to each other,
+    If any of the balls violate any of the placement rules while bring placed next to each other,
     the balls will explode and destroy Balloria.
 
     As a provider of a service that lets wizards store their balls,
@@ -94,5 +94,8 @@
     I'd like a bag that lets a wizard add as many blue balls as a bag can hold.
 
 20. As a provider of a service that lets wizards store their balls,
+    i'd like to limit the number of yellow balls to only 40% of the number of balls in the bag.
 
+20. As a provider of a service that lets wizards store their balls,
+    I'd like to show my customers a summary of their bag at any given time.
 

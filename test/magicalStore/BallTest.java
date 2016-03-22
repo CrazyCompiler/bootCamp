@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 public class BallTest {
     @Test
     public void ballTellsIfItIsOfDifferentColor() {
-        Ball ball = new Ball("green");
+        Balls ball = Balls.GREEN;
         assertTrue(ball.is("green"));
     }
 }
