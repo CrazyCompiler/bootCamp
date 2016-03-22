@@ -3,7 +3,7 @@ package measurements;
 import measurements.exceptions.IllegalOperationException;
 import measurements.exceptions.NegativeMeasurementException;
 
-public class Measurement {
+public class Measurement<M> {
 
     private double value;
     private Convertibles unit;
@@ -39,7 +39,7 @@ public class Measurement {
 
     public Measurement addVolumes(Measurement secondMeasurement) throws Exception {
         if(this.unit.getClass() != secondMeasurement.unit.getClass())
-            throw new IllegalOperationException("My teacher is an idiot");
+            throw new IllegalOperationException ("My teacher is an idiot");
         double unitsInLiters = this.unit.convertIntoBaseUnit(this.value);
         double givenunitsInLiters = secondMeasurement.unit.convertIntoBaseUnit(secondMeasurement.value);
         double sum = unitsInLiters + givenunitsInLiters;

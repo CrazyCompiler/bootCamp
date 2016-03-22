@@ -1,10 +1,14 @@
 ------------------------Requirements-------------------------------
 
+------------------------First assignment --------------------------
+
 1. As a match student ,i want to represent a rectangle ==>
  - so that i will be able to calculate area and perimeter.
 
 2. As a math student, I want to represent a square
   - so that i can calculate its area and perimeter
+
+------------------------ Second Assignment ----------------------------
 
 3. As a math student,
  I want to represent a chance of getting tails
@@ -24,6 +28,8 @@
 
 7. De morgans law
     p(A||B) = !(!p(A)&& !p(B))
+
+------------------------- Third assignment ------------------------
 
 8. As a math student,
     I wish to compare lengths in feet and inches.
@@ -57,4 +63,36 @@
     I want to able to add two volumes in any unit and the standard outputs in liters.
 
     1 gallon + 1 liters = 4.78 ltrs
+
+15. As a math student,
+    I want to be able to compare temperature in Fahrenheit and Celsius.
+
+        212f = 100c
+
+----------------------------- Fourth Assignment------------------------------
+
+15. The kingdom of Balloria is known for its wizards and thier colorful magical balls.
+    These balls are very powerful and have to be stores safely when not in use.
+
+    As a provider of a service that lets wizards store their balls,
+    I'd like a bag that can hold a maximum of 12 balls.
+
+16. As a provider of a service that lets wizards store their balls,
+    I'd like a bag that allows a wizard to only put in a maximum of 3 green balls.
+
+17. As a provider of a service that lets wizards store their balls,
+    I'd like a bag that prevents a wizard from adding double the number of red balls than green balls.
+
+18. Ballorian law is very strict about the placement of balls.
+    If any of the balls violate any of the palcement rules while bring placed next to each other,
+    the balls will explode and destroy Balloria.
+
+    As a provider of a service that lets wizards store their balls,
+    I have to report any attempt that violates any of the placement rules.
+
+19. As a provider of a service that lets wizards store their balls,
+    I'd like a bag that lets a wizard add as many blue balls as a bag can hold.
+
+20. As a provider of a service that lets wizards store their balls,
+
 
