@@ -1,4 +1,4 @@
-package magicalStore;
+package magicalStore.rules;
 
 public class ExceedsMaxGreenBallsException extends Exception {
 }

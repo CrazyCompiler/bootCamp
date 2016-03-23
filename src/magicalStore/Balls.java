@@ -1,22 +1,17 @@
 package magicalStore;
 
-public enum Balls {
-    RED("red"),
-    GREEN("green"),
-    BLUE("blue"),
-    YELLOW("yellow");
+import java.util.ArrayList;
 
-    private String color;
+public class Balls extends ArrayList<Ball>{
+//    private ArrayList balls= new ArrayList();
 
-    Balls(String color) {
-        this.color = color;
-    }
 
-    public String getColor() {
-        return color;
-    }
+//    public boolean add(Ball ball) {
+//        balls.add(ball);
+//        return false;
+//    }
 
-    public boolean is(String color) {
-        return color.equals(this.color);
-    }
+//    public int size(){
+//        return balls.size();
+//    }
 }
