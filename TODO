@@ -2,7 +2,7 @@
 
 ------------------------First assignment --------------------------
 
-1. As a match student ,i want to represent a rectangle ==>
+1. As a math student ,i want to represent a rectangle ==>
  - so that i will be able to calculate area and perimeter.
 
 2. As a math student, I want to represent a square
@@ -99,3 +99,18 @@
 20. As a provider of a service that lets wizards store their balls,
     I'd like to show my customers a summary of their bag at any given time.
 
+----------------------------------------- Parking Attendant ----------------------------------------------
+
+21. As a parking lot attendant, I want to park a car.
+
+22. As a parking lot attendant, I want to know when the lot is full.
+
+23. As a parking lot attendant, I want to handle more than one parking lot.
+
+24. As a parking lot attendant, I want an assistant to monitor the same parking lots as me and update a display.
+
+25. As a parking lot manager, I want to know when the lot is 80% full so that i don't assign that lot to trainee.
+
+26. As a parking lot attendant, I want to know when the lot is 20% or less occupied so that I can promote the lot.
+
+27. As a civic body, I want to know when the parking lots are 80% full so I can collect more taxes.

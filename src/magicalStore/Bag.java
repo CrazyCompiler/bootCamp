@@ -15,9 +15,7 @@ public class Bag {
     public int add(Ball ball) throws Exception{
         if(this.balls.size()>=this.size)
             throw new BagFullException();
-
         rules.isValid(this.balls,ball);
-
         this.balls.add(ball);
         return this.balls.size();
     }

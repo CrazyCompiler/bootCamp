@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/BagFullException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/Ball.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/Colors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/ExceedsMaxGreenBallsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/ExceedsMaxRedBallsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/ExceedsMaxYellowBallsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/GreenBallRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/RedBallRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/Rules.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/Validators.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/rules/YellowBallRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/magicalStore/rules/RedBallRuleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/magicalStore/rules/YellowBallRuleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/magicalStore/rules/greenBallRuleTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/magicalStore/BagOutOfStorageException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/magicalStore/DetailedSummary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/magicalStore/ExceedsMaxGreenBallsException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/magicalStore/ExceedsMaxRedBallsException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/magicalStore/ExceedsMaxYellowBallsException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/magicalStore/OverViewSummary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/magicalStore/SummaryDesigns.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/magicalStore/DetailedSummaryTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/magicalStore/OverViewSummaryTest.java" afterPath="" />
+    <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="[Mitesh/Viraj] Magical Ball Assignment secondlast itteration completed with different design &#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/magicalStore/summarys/OverviewSummary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/Assistant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/ManagerNotifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/ParkingLot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/ParkingLotEventNotifiers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/ParkingLotException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/ParkingLotFullException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/ParkingLots.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/parkingAttendant/ParkinglotObservers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/magicalStore/summarys/OverviewSummaryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/parkingAttendant/AssistantTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/parkingAttendant/ParkingLotTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/parkingAttendant/ParkingLotsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/magicalStore/Bag.java" afterPath="$PROJECT_DIR$/src/magicalStore/Bag.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/magicalStore/Balls.java" afterPath="$PROJECT_DIR$/src/magicalStore/Balls.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/magicalStore/BagTest.java" afterPath="$PROJECT_DIR$/test/magicalStore/BagTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/magicalStore/BallTest.java" afterPath="$PROJECT_DIR$/test/magicalStore/BallTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/magicalStore/rules/RedBallRule.java" afterPath="$PROJECT_DIR$/src/magicalStore/rules/RedBallRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/magicalStore/rules/YellowBallRule.java" afterPath="$PROJECT_DIR$/src/magicalStore/rules/YellowBallRule.java" />
     </list>
     <ignored path="bootCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,84 +49,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Bag.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/magicalStore/Bag.java">
+      <file leaf-file-name="TODO" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TODO">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53321034">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="111" column="72" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rules.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/Rules.java">
+      <file leaf-file-name="ManagerNotifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ManagerNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <caret line="8" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#0#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BagTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/magicalStore/BagTest.java">
+      <file leaf-file-name="ParkingLot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.4704797">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#767#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Validators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/Validators.java">
+      <file leaf-file-name="ParkingLotEventNotifiers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkingLotEventNotifiers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Balls.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/magicalStore/Balls.java">
+      <file leaf-file-name="ParkingLotTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/parkingAttendant/ParkingLotTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ball.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/magicalStore/Ball.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BallTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/magicalStore/BallTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,28 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/measurements/Convertibles.java" />
-        <option value="$PROJECT_DIR$/src/measurements/exceptions/IllegalOperationsException.java" />
-        <option value="$PROJECT_DIR$/test/measurements/MeasurementTest.java" />
-        <option value="$PROJECT_DIR$/test/shapes/RectangleTest.java" />
-        <option value="$PROJECT_DIR$/test/shapes/SquareTest.java" />
-        <option value="$PROJECT_DIR$/src/measurements/LengthUnits.java" />
-        <option value="$PROJECT_DIR$/src/measurements/Measurement.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/MaxSizeCondition.java" />
-        <option value="$PROJECT_DIR$/test/magicalStore/MaxSizeConditionTest.java" />
-        <option value="$PROJECT_DIR$/test/magicalStore/MagicalBallHolderTest.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/bag.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/MagicalBallHolder.java" />
-        <option value="$PROJECT_DIR$/TODO" />
-        <option value="$PROJECT_DIR$/test/magicalStore/FirstDesignTest.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/FirstDesign.java" />
-        <option value="$PROJECT_DIR$/test/magicalStore/FirstSummaryDesignTest.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/SummaryDesigns.java" />
-        <option value="$PROJECT_DIR$/test/magicalStore/SecondSummaryDesignTest.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/FirstSummaryDesign.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/OverViewSummary.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/SecondSummaryDesign.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/DetailedSummary.java" />
         <option value="$PROJECT_DIR$/test/magicalStore/DetailedSummaryTest.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/BagLimitExceedException.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/BagStorageLimitExceedException.java" />
@@ -210,19 +155,41 @@
         <option value="$PROJECT_DIR$/src/magicalStore/rules/ExceedsMaxGreenBallsException.java" />
         <option value="$PROJECT_DIR$/test/magicalStore/rules/GreenBallRuleTest.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/ExceedsMaxRedBallsException.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/Balls.java" />
         <option value="$PROJECT_DIR$/test/magicalStore/rules/RedBallRuleTest.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/ExceedsMaxYellowBallsException.java" />
         <option value="$PROJECT_DIR$/test/magicalStore/rules/YellowBallRuleTest.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/rules/ExceedsMaxRedBallsException.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/rules/ExceedsMaxYellowBallsException.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/rules/Validators.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/rules/RedBallRule.java" />
-        <option value="$PROJECT_DIR$/src/magicalStore/rules/YellowBallRule.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/rules/GreenBallRule.java" />
         <option value="$PROJECT_DIR$/test/magicalStore/BagTest.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/rules/Rules.java" />
         <option value="$PROJECT_DIR$/src/magicalStore/Bag.java" />
+        <option value="$PROJECT_DIR$/src/magicalStore/summarys/OverviewSummary.java" />
+        <option value="$PROJECT_DIR$/test/magicalStore/summarys/OverviewSummaryTest.java" />
+        <option value="$PROJECT_DIR$/src/magicalStore/rules/YellowBallRule.java" />
+        <option value="$PROJECT_DIR$/src/magicalStore/rules/RedBallRule.java" />
+        <option value="$PROJECT_DIR$/src/magicalStore/Balls.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/Car.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkingLotFullException.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkingLotExceptions.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkingLotException.java" />
+        <option value="$PROJECT_DIR$/test/parkingAttendant/AssistantTest.java" />
+        <option value="$PROJECT_DIR$/test/parkingAttendant/ManagerTest.java" />
+        <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/partialObservers.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/PartialObservers.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/Manager.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/Assistant.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/Observers.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkinglotObservers.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkingLots.java" />
+        <option value="$PROJECT_DIR$/test/parkingAttendant/ParkingLotsTest.java" />
+        <option value="$PROJECT_DIR$/test/parkingAttendant/ParkingLotTest.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkingLotEvent.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ManagerNotifier.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkingLotEventNotifiers.java" />
+        <option value="$PROJECT_DIR$/src/parkingAttendant/ParkingLot.java" />
       </list>
     </option>
   </component>
@@ -256,8 +223,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,6 +268,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parkingAttendant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -318,35 +304,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magicalStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootCamp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootCamp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magicalStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rules" />
+              <option name="myItemId" value="parkingAttendant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,13 +339,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="parkingAttendant" />
+      <recent name="magicalStore.summarys" />
       <recent name="magicalStore.rules" />
       <recent name="magicalStore" />
       <recent name="lengths" />
-      <recent name="volumes" />
-      <recent name="probability" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="magicalStore" />
       <recent name="magicalStore.rules" />
       <recent name="shapes" />
     </key>
@@ -390,14 +354,14 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="parkingAttendant" />
       <recent name="magicalStore.rules" />
       <recent name="magicalStore" />
       <recent name="lengths" />
       <recent name="" />
-      <recent name="dimensions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.magicalStore in bootCamp">
+  <component name="RunManager" selected="JUnit.parkingAttendant in bootCamp">
     <configuration default="false" name="magicalStore in bootCamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -412,58 +376,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="GreenBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowExceptionForMoreThanThreeBallsAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="magicalStore.rules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="bootCamp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="magicalStore.rules" />
-      <option name="MAIN_CLASS_NAME" value="magicalStore.rules.GreenBallRuleTest" />
-      <option name="METHOD_NAME" value="isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowExceptionForMoreThanThreeBallsAdded" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RedBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndReturnTrueForLessThanDoubleOfGreenBallsAreAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="magicalStore.rules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="bootCamp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="magicalStore.rules" />
-      <option name="MAIN_CLASS_NAME" value="magicalStore.rules.RedBallRuleTest" />
-      <option name="METHOD_NAME" value="isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndReturnTrueForLessThanDoubleOfGreenBallsAreAdded" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -516,6 +428,58 @@
       <option name="MAIN_CLASS_NAME" value="magicalStore.rules.RedBallRuleTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="parkingAttendant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bootCamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="parkingAttendant" />
+      <option name="MAIN_CLASS_NAME" value="parkingAttendant.ParkingLotTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="parkingAttendant in bootCamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="parkingAttendant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bootCamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="parkingAttendant" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -786,18 +750,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.magicalStore in bootCamp" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GreenBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowExceptionForMoreThanThreeBallsAdded" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndReturnTrueForLessThanDoubleOfGreenBallsAreAdded" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowsExceptionForMoreThanDoubleOfGreenBallsAreAdded" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowsExceptionForMoreThanDoubleOfGreenBallsAreAdded" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingLotTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.parkingAttendant in bootCamp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.magicalStore in bootCamp" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowsExceptionForMoreThanDoubleOfGreenBallsAreAdded" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndReturnTrueForLessThanDoubleOfGreenBallsAreAdded" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GreenBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowExceptionForMoreThanThreeBallsAdded" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.parkingAttendant in bootCamp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingLotTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.magicalStore in bootCamp" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RedBallRuleTest.isValidShouldApplyTheRuleOntheCurrentStateOfBallsAndThrowsExceptionForMoreThanDoubleOfGreenBallsAreAdded" />
       </list>
     </recent_temporary>
   </component>
@@ -884,39 +848,45 @@
       <option name="project" value="LOCAL" />
       <updated>1458656431461</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[Mitesh/Viraj] Magical Ball Assignment secondlast itteration completed with different design &#10;">
+      <created>1458721492192</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1458721492192</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RedBallRuleTest - 2016.03.23 at 12h 38m 09s.xml">
-      <configuration name="RedBallRuleTest" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest - 2016.03.24 at 12h 32m 48s.xml">
+      <configuration name="ParkingLotTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 12h 38m 16s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest - 2016.03.24 at 12h 40m 51s.xml">
+      <configuration name="ParkingLotTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 12h 38m 35s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.24 at 12h 40m 58s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 12h 38m 39s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.24 at 15h 09m 09s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 12h 39m 31s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.24 at 15h 09m 32s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 12h 51m 45s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.24 at 16h 02m 27s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 12h 52m 32s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.24 at 16h 31m 43s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 13h 43m 55s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.24 at 16h 32m 27s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 13h 44m 57s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.26 at 08h 26m 31s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="magicalStore_in_bootCamp - 2016.03.23 at 13h 52m 02s.xml">
-      <configuration name="magicalStore in bootCamp" configurationId="JUnit" />
+    <history-entry file="parkingAttendant_in_bootCamp - 2016.03.26 at 08h 41m 32s.xml">
+      <configuration name="parkingAttendant in bootCamp" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -930,12 +900,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.502442" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3278302" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26068377" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3278302" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06625767" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18376069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -945,7 +913,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26068377" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -975,7 +945,8 @@
     <MESSAGE value="[Saran/Viraj] Completed last assignment of units &#10;" />
     <MESSAGE value="[Mitesh/Viraj] Magical store assignment &#10;" />
     <MESSAGE value="[Mitesh/Viraj] Magical Ball Assignment secondlast itteration completed &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Mitesh/Viraj] Magical Ball Assignment secondlast itteration completed &#10;" />
+    <MESSAGE value="[Mitesh/Viraj] Magical Ball Assignment secondlast itteration completed with different design &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Mitesh/Viraj] Magical Ball Assignment secondlast itteration completed with different design &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -988,116 +959,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/measurements/LengthUnits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/measurements/VolumeUnits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#483#484#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/measurements/Measurement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/probability/Probability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/probability/ProbabilityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shapes/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/shapes/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shapes/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/shapes/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shapes/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/shapes/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1186,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08292683">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,7 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45609757">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,9 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24723247">
           <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,18 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.501845">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#483#484#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37638375">
-          <caret line="84" column="76" selection-start-line="83" selection-start-column="7" selection-end-line="84" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,10 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12546125">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1242,15 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12546125">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,15 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/magicalStore/Balls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,12 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1295,9 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,9 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,9 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,9 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1335,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.062730625">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.062730625">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,71 +1152,189 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18819188">
           <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/YellowBallRule.java">
+    <entry file="file://$PROJECT_DIR$/src/magicalStore/Balls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2509225">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/RedBallRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12177122">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.34501845">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/Validators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2509225">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/magicalStore/BagTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.24723247">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/Rules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5645757">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/magicalStore/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53321034">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/magicalStore/summarys/OverviewSummaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2509225">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/magicalStore/summarys/OverviewSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.062730625">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/YellowBallRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34501845">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/magicalStore/rules/RedBallRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31365314">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/measurements/MeasurementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="13" selection-start-column="2" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkingLotException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkingLotFullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/parkingAttendant/AssistantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/Assistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkingLots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkinglotObservers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/parkingAttendant/ParkingLotsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/parkingAttendant/ParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="72" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ManagerNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkingLotEventNotifiers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parkingAttendant/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4704797">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#767#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
